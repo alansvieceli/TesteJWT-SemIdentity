@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteJWT-SemIdentity", "TesteJWT-SemIdentity.csproj", "{BDAEA3A0-474B-41B6-A383-D55E8256ED9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDAEA3A0-474B-41B6-A383-D55E8256ED9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAEA3A0-474B-41B6-A383-D55E8256ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAEA3A0-474B-41B6-A383-D55E8256ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAEA3A0-474B-41B6-A383-D55E8256ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D7F559-9883-417D-9F49-7611F48BAB49}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+https://balta.io/blog/aspnetcore-3-autenticacao-autorizacao-bearer-jwt
+
+ https://localhost:5001/v1/account/login
+
+{'username':'robin','password':'robin'} ou batman
+
+
+
+AllowAnonymous – Permite acesso anônimo, sem autenticação alguma a página.
+Authorize – Requer que o usuário esteja autenticado, mas não se importa com seu perfil.
+Authorize(Roles=”Role1,Role2”) – Exige que o usuário além de autenticado, faça parte de um dos perfis listados. Note que se quiser restringir por mais de um perfil, basta utilizar “,” para separá-los.
+
+
+https://localhost:5001/v1/account/anonymous
+https://localhost:5001/v1/account/authenticated
+https://localhost:5001/v1/account/employee
+https://localhost:5001/v1/account/manager
